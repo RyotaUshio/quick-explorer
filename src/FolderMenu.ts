@@ -330,7 +330,7 @@ export class FolderMenu extends PopupMenu implements HoverParent {
     }
 
     hidePopover() {
-        this.hoverPopover = null;
+        this.hoverPopover?.hide();
     }
 
     canShowPopover() {
